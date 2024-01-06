@@ -69,14 +69,14 @@
 }
 
 .session-card-tag {
-  background: white;
-  padding: 10px;
+  background: #efefef;
+  padding: 2px 15px;
   border-radius: 20px;
   font-weight: 500;
 }
 
 .session-card {
-  background: #efefef;
+  border: 1px solid #c5c5c5;
   padding: 20px;
   border-radius: 10px;
   display: flex;
@@ -85,9 +85,9 @@
 }
 
 .session-date {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #c5c5c5;
-  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+  font-weight: 600;
 }
 
 .session-tag-meta {
@@ -96,8 +96,6 @@
 }
 
 .session-tag-meta span {
-  background-color: #efefef;
   border-radius: 8px;
   font-weight: 600;
-  padding: 8px 25px;
 }
