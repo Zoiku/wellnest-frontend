@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import LoginPatient from "../pages/patient";
+import LoginPatient from "../pages/patient/Index";
 import DashboardPatient from "../pages/patient/Dashboard";
 import DashboardTherapist from "../pages/therapist/Dashboard";
 import TherapistProfile from "../pages/patient/TherapistProfile";
