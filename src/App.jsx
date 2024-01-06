@@ -1,4 +1,4 @@
-import AppRoutes from "./routes";
+import AppRoutes from "./custom_routes";
 import Snackbar from "./components/Snackbar";
 
 const App = () => {
