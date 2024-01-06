@@ -3,7 +3,7 @@ import useAuth from "./useAuth";
 import {
   signInFormInitialValues,
   signUpFormInitialValues,
-} from "../states/Index";
+} from "../states/index";
 import useAxios from "./useAxios";
 import { useState } from "react";
 import useSnackbar from "./useSnackbar";

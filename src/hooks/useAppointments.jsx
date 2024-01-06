@@ -1,6 +1,6 @@
 import useTabs from "./useTabs";
 import { columns } from "../table columns/appointments";
-import { requests, active, history } from "../data/";
+import { requests, active, history } from "../data/index";
 
 const useAppointments = () => {
   const [index, setIndex] = useTabs();
