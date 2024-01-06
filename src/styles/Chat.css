@@ -1,0 +1,30 @@
+.chat-app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-app > div {
+  position: relative;
+}
+
+.chat-messages-wrapper {
+  width: 30%;
+  background: white;
+}
+
+.chat-session-wrapper {
+  width: 70%;
+  background: #efefef;
+}
+
+@media screen and (max-width: 1024px) {
+  .chat-messages-wrapper {
+    width: 100%;
+  }
+
+  .chat-session-wrapper {
+    width: 0%;
+  }
+}

@@ -1,0 +1,21 @@
+.custom-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.custom-section > div {
+  width: 100%;
+}
+
+.custom-section-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.custom-section-label-helper {
+  color: #999;
+}

@@ -1,0 +1,8 @@
+.centered-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.centered {
+  width: 1000px;
+}

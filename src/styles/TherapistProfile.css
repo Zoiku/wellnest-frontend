@@ -1,0 +1,46 @@
+.therapist-profile-page > div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.therapist-profile-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid #c5c5c5;
+  padding: 10px;
+}
+
+.therapist-profile-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.therapist-skill > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.therapist-skill-tags {
+  border: 1px solid #c5c5c5;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.therapist-skill-tag {
+  background: #efefef;
+  padding: 10px;
+  border-radius: 10px;
+  user-select: none;
+  font-size: small;
+}
+
+.therapist-reviews > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.therapist-review {
+  border: 1px solid #c5c5c5;
+  border-radius: 10px;
+  padding: 10px;
+}

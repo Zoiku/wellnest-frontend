@@ -1,0 +1,62 @@
+.certification-page-wrapper {
+  background: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  user-select: none;
+  z-index: 1;
+}
+
+.certification-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.certification-page > div:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.certification-page-header {
+  text-align: center;
+  width: 70%;
+}
+
+.certification-header-note {
+  color: gray;
+}
+
+.certification-page-header > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.certification-upload-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.certification-uploaded-documents-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 37%;
+  text-align: center;
+}
+
+.certification-uploaded-documents {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.certification-uploaded-document {
+  border: 1px solid #c5c5c5;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}

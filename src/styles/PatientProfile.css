@@ -1,0 +1,103 @@
+.patient-profile-page > div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.patient-profile-content-container {
+  display: flex;
+  gap: 10px;
+}
+
+.patient-profile-content-container > div {
+  width: 100%;
+}
+
+.patient-profile-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.patient-profile-session-history {
+  border: 1px solid #c5c5c5;
+  padding: 10px;
+}
+
+.patient-profile-session-history > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.patient-card-for-therapist {
+  border: 1px solid #c5c5c5;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.patient-card-for-therapist-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.patient-card-for-therapist-image {
+  height: 140px;
+  border-radius: 10px;
+  width: 140px;
+  border: 1px solid #c5c5c5;
+}
+
+.patient-card-for-therapist-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.patient-card-for-therapist-desc > div:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.patient-profile-info {
+  border: 1px solid #c5c5c5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.session-card-tags {
+  display: flex;
+  gap: 15px;
+}
+
+.session-card-tag {
+  background: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.session-card {
+  background: #efefef;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.session-date {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c5c5c5;
+  font-weight: 700;
+}
+
+.session-tag-meta {
+  text-align: center;
+  padding: 8px 25px;
+}
+
+.session-tag-meta span {
+  background-color: #efefef;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 8px 25px;
+}

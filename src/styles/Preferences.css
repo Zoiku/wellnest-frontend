@@ -1,0 +1,73 @@
+.preferences-page-wrapper {
+  background: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  user-select: none;
+  z-index: 1;
+}
+
+.preferences-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preferences-form-wrapper {
+  width: 400px;
+  height: 500px;
+  position: relative;
+}
+
+.preferences-form-wrapper > div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.preferences-form > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.preference-options > div:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.preference-option {
+  border: 2px solid #c5c5c5;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: borderColor, background-color 0.1s linear;
+}
+
+.preference-option:hover {
+  border-color: #929292;
+}
+
+.preference-option-selected {
+  border-color: black !important;
+}
+
+.preference-controllers {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .preferences-page-wrapper {
+    padding: 10px;
+  }
+
+  .preferences-page {
+    align-items: flex-start;
+  }
+
+  .preferences-form-wrapper {
+    width: 100%;
+  }
+}

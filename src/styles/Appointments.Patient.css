@@ -1,0 +1,23 @@
+.patient-appointments-page > div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.patient-appointments-calendar {
+  height: 400px;
+  border-radius: 5px;
+  border: 1px solid #c5c5c5;
+  display: grid;
+  place-content: center;
+  color: gray;
+  font-size: small;
+}
+
+.patient-appointments-tabs {
+  border: 1px solid #c5c5c5;
+  border-radius: 10px;
+  overflow: clip;
+}
+
+.patient-appointments-tabs > div:not(:last-child) {
+  margin-bottom: 20px;
+}
