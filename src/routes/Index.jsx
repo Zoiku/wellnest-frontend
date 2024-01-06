@@ -7,7 +7,7 @@ import PatientProfile from "../pages/therapist/PatientProfile";
 import PatientAppointments from "../pages/patient/Appointments";
 import LayoutPatient from "../layouts/Patient";
 import LayoutTherapist from "../layouts/Therapist";
-import LoginTherapist from "../pages/therapist";
+import LoginTherapist from "../pages/therapist/Index";
 import RequireAuth from "../private/RequireAuth";
 import PageNotFound from "../pages/PageNotFound";
 import useAnimations from "../hooks/useAnimations";
